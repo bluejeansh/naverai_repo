@@ -8,6 +8,7 @@ public class StartController {
 //http://localhost:8064/
 	@GetMapping("/")
 	public String start(){
+		System.out.println("조수민");
 		return "start"; 
 	}
 }
