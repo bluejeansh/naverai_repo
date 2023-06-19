@@ -8,6 +8,7 @@ public class StartController {
 //http://localhost:8064/
 	@GetMapping("/")
 	public String start(){
+		Sytem.out.println("이완재회원");
 		return "start"; 
 	}
 }
